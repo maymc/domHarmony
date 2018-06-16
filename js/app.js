@@ -14,6 +14,11 @@ document.getElementById("fullname").innerHTML = "Ronald McDonald";
 document.getElementById("age").innerHTML = "63 Years Old";
 
 //5. In the div id data section, create a div with an id of job and give it the following information: Clown and Restauranteur.
+var divElem = document.createElement("div");
+divElem.id = "job";
+divElem.innerHTML = "Clown and Restauranteur";
+document.getElementById("data").appendChild(divElem);
+
 
 //6. In the div id data section, create a div with an id of hobbies and give it the following information: Long romantic walks on the beach, candle light Big Mac dinners and tormenting the King.
 
