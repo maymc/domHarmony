@@ -1,6 +1,7 @@
 /*Hey Prepsters! Let's help Ronald McDonald find true love by revising his online dating profile!*/
 
 //1. In the nav element, target the span element with the id of 'matCount' and change the number from 0 to 11.
+document.getElementById("matCount").innerHTML = 11;
 
 //2. In the nav element, target the span element with the id of 'msgCount' and change the number from 0 to 23.
 
