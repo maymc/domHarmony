@@ -78,6 +78,15 @@ otherAgeClass[1].innerHTML = 68;
  //div with class name of status
  //div with class anem of Motto
 
+ var firstNameClass = document.getElementsByClassName("firstName");
+firstNameClass[2].innerHTML = "M";
 
+var otherAgeClass = document.getElementsByClassName("otherAge");
+otherAgeClass[2].innerHTML = 24;
 
+var statusClass = document.getElementsByClassName("status");
+statusClass[2].innerHTML = "Taken";
+
+var mottoClass = document.getElementsByClassName("motto");
+mottoClass[2].innerHTML = "Nice to meet you";
 
