@@ -28,6 +28,11 @@ divElem2.innerHTML = "Long romantic walks on the beach, candle light Big Mac din
 document.getElementById("data").appendChild(divElem2);
 
 //7. In the div id data section, create a div with an id of location and give it the following information: Honolulu, HI.
+var divElem3 = document.createElement("div");
+divElem3.id = "location";
+divElem3.innerHTML = "Honolulu, HI";
+document.getElementById("data").appendChild(divElem3);
+
 
 //8. In the div id data section, create a div with an id of wants and give it the following information: Looking for a Mrs. McDonald.
 
