@@ -67,6 +67,9 @@ var firstNameClass = document.getElementsByClassName("firstName");
 firstNameClass[1].innerHTML = "Peko Chan";
 
 //14. In the div id matches section, target the second div element with the class name of otherAge and change Age to 68.
+var otherAgeClass = document.getElementsByClassName("otherAge");
+otherAgeClass[1].innerHTML = 68;
+
 
  //Final Boss Create your own profile into the page:
  //change image to match your profile
